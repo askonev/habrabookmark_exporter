@@ -1,0 +1,9 @@
+[project]
+name = "habrabookmark_exporter"
+version = "0.1.0"
+description = "A short description of my project"
+requires-python = ">=3.12"
+dependencies = ["playwright", "invoke", "requests"]
+
+[project.optional-dependencies]
+dev = ["ruff"]
